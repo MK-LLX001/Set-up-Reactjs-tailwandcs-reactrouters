@@ -21,8 +21,15 @@ function App() {
       </div>
       <h1>Vite + React</h1> */}
     <Routes>
-      <Route path='navbar' element={ <Navbar/>}/>
-      <Route path='home' element={ <Home/>}/>
+
+      {/* <Route path='navbar' element={ <Navbar/>}/>
+      <Route path='home' element={ <Home/>}/> */}
+      <Route path='/' element ={<Home/>}>
+      
+         <Route path='navbar' element={ <Navbar/>}/>
+         
+      </Route>
+
     </Routes>
     
     </>
